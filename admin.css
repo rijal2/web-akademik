@@ -27,7 +27,7 @@ div ul .serv-show.show1{
 }
 
 div ul li a span  {
-  position: absolute;
+  height: 3px;
   transform: translateY(-50%);
   transition: transform 0.4s;
 }
@@ -35,4 +35,5 @@ div ul li a span  {
 div ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
   transition: transform 0.4s;
+  height: -3px;
 }
