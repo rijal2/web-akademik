@@ -37,3 +37,12 @@ div ul li a span.rotate{
   transition: transform 0.4s;
   height: -3px;
 }
+
+.card {
+  border: 0 !important;
+}
+
+.btn-primary  {
+  width: 60%;
+  align-self: center;
+}
