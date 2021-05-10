@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="admin.css">
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <title>Pendaftaran SKB Online</title>
+    <title>Upload Pembayaran</title>
   </head>
   <body>
     
@@ -62,45 +62,35 @@
  
       <!-- berisi template halaman admin -->
       <div class="col-md-10 p-5" style="position: absolute;">
+        <p>Silahkan lakukan pembayaran untuk mengikuti Seleksi Kelas Berbakat (SKB) Oniline ini.
+        Nomonal Pembayaran seikhlasnya.
+        Transfer ke rekening berikut ini:
+        BNI Syariah. </p>
+
+        <br>
+
         <form>
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Upload Bukti transfer anda disini</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+        
             <div class="form-group row">
-              <label for="staticEmail" class="col-sm-2 col-form-label">Nama</label>
+              <label for="inputPassword" class="col-sm-2 col-form-label">Tanggal Transfer</label>
               <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="M. Rudi Firmansyah">
+                <input type="password" class="form-control" id="inputPassword">
               </div>
             </div>
             <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Kelas</label>
+                <label for="inputPassword" class="col-sm-2 col-form-label">Nominal Transfer</label>
                 <div class="col-sm-10">
-                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="5 (SD)">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Asal Sekolah</label>
-                <div class="col-sm-10">
-                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="SD KPM SURABAYA">
+                  <input type="password" class="form-control" id="inputPassword">
                 </div>
               </div>
-              <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Kota Asal Sekolah</label>
-                <div class="col-sm-10">
-                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="SURABAYA">
-                </div>
-              </div>
-              <div class="form-group row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Email Aktif</label>
-                  <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="ujicoba@gmail.com">
-                  </div>
-              </div>
-            <div class="form-group row">
-              <label for="inputPassword" class="col-sm-2 col-form-label">No. WA Aktif</label>
-              <div class="col-sm-10">
-                <input type="password" class="form-control" id="082233445566">
-              </div>
-            </div>
-            <button type="button" class="btn btn-primary">Lanjutkan</button>
-          </form>
+            
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
         
     </div>
